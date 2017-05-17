@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body,div{
+	margin: 0;padding: 0;
+}
+img{
+	display: block;
+	border: none;
+}
+#box{
+	position: absolute;
+	top: 20px;left: 20px;
+	width:240px;height: 320px;
+	box-shadow:3px 3px 10px 0 #111;
+}
+#box img{
+	width: 100%;
+	height: 100%;
+}
+#mark{
+	display: none;
+	position: absolute;
+	top: 0;left: 0;
+	width: 120px;height:160px;
+	background: #000;
+	opacity: 0.5;filter: alpha(opacity=50);
+	cursor: move;
+}
+#boxRight{
+	display: none;
+	position: absolute;
+	width: 240px;height: 320px;
+	top: 20px;left: 350px;
+	overflow: hidden;
+}
+
+/*这里的尺寸需要严格计算，mark的width应该是左侧图的2倍*/
+#boxRight img{
+	position: absolute;top:0;left: 0;
+	width:200%;
+	height: 200%;
+}
+
+
+
+
+
+
+

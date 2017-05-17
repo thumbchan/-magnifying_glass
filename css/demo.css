@@ -1,0 +1,13 @@
+@charset "utf-8";
+*{
+	margin: 0;padding: 0;
+}
+#box{
+	position: relative;
+	width: 300px;height: 400px;
+	margin: 20px auto;background: #00ff00;
+}
+#mark{
+	position: absolute;
+	background: red;width: 100px;height: 100px;
+}
